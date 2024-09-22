@@ -7,8 +7,15 @@
 body {
     background: #F2F2F2;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+.main-content {
+    flex-grow: 1;
+}
+
 
 .navbar {
     background: white;
@@ -406,17 +413,31 @@ nav {
 
 /* Footer Styles */
 .footer {
+    // background-color: #333;
+    // color: #fff;
+    // padding: 40px 0;
+    // font-family: 'Arial', sans-serif;
+
     background-color: #333;
     color: #fff;
     padding: 40px 0;
     font-family: 'Arial', sans-serif;
+    margin-top: auto; /* Ensure the footer sticks to the bottom */
+    position: relative;
+    z-index: 1; /* Ensure it stays above other content */
   
     .footer-container {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      margin: 0 auto;
+    //   display: flex;
+    //   justify-content: space-between;
+    //   flex-wrap: wrap;
+    //   max-width: 1200px;
+    //   margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
   
       .footer-logo, .footer-links, .footer-contact, .footer-social {
         h2, h4 {

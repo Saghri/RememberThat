@@ -3,26 +3,11 @@
   --primary-color: #007AF3;
 }
 
-/* body {
-  background: #F2F2F2;
-  margin: 0;
-  font-family: 'Poppins';
-} */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+body {
   background: #F2F2F2;
   margin: 0;
   font-family: 'Poppins';
 }
-
-
 
 .navbar {
   background: white;
