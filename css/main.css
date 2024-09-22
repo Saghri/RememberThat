@@ -411,7 +411,9 @@ nav li a:hover {
 .footer h2, .footer h4 {
   margin-bottom: 15px;
 }
-
+.footer-logo span{
+  color:#007AF3;
+}
 .footer-logo p {
   font-size: 14px;
 }
